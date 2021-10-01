@@ -1,0 +1,40 @@
+.ideapark-custom-field-panel .form-field {
+	display: flex;
+	flex-wrap: nowrap;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	align-items: baseline;
+}
+
+.ideapark-custom-field-panel input[type=checkbox] {
+	margin-top: 0;
+}
+
+.ideapark-custom-field-panel label {
+	margin-right: 5px;
+	padding-right: 10px;
+}
+
+.ideapark-custom-field-panel .form-label {
+	flex: 0 0 auto;
+	width: 170px;
+	border-bottom: dashed 1px #ddd;
+}
+
+.ideapark-custom-field-panel .color-picker {
+	display: inline-block;
+	width: 80px;
+}
+
+@media (max-width: 413px) {
+
+	.ideapark-custom-field-panel .form-field {
+		display: block;
+	}
+
+	.ideapark-custom-field-panel .form-label {
+		display: block;
+		border-bottom: none;
+		margin-bottom: 3px;
+	}
+}
