@@ -164,3 +164,72 @@
 <?php if ( ideapark_woocommerce_on() && function_exists( 'wc_print_notices' ) && isset( WC()->session ) ) { ?>
 <div class="woocommerce-notices-wrapper"><?php wc_print_notices(); ?></div>
 <?php } ?>
+
+
+<div class="proacto-testing-block">
+	<?php 
+	$portmone_args = array(
+        'payee_id'           => '1185',
+        'shop_order_number'  => 'yura_ebat_nykolyshn_12',
+        'bill_amount'        => '12',
+        'bill_currency'      => 'UAH',
+        'success_url'        => get_site_url() . '/test-page/&status=success',
+        'failure_url'        => get_site_url() . '/test-page/&status=failure',
+        'cms_module_name'    => json_encode(['name' => 'WordPress', 'v' => '1']),
+        'encoding'           => 'UTF-8'
+    );
+    $out = '';
+        foreach ($portmone_args as $key => $value) {
+            $portmone_args_array[] = "<input type='hidden' name='$key' value='$value'/>";
+        }
+        $out .= '<form action="' . 'https://www.portmone.com.ua/gateway/' . '" method="post" id="portmone_payment_form">
+            ' . implode('', $portmone_args_array) . '
+        <input type="submit" id="submit_portmone_payment_form" value="' . 'PAY TEST' . '" /></form>';
+
+    // echo $out;
+
+    function curlRequest($url, $data) {
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 30);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+        $response = curl_exec($ch);
+        $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+        if (200 !== intval($httpCode)) {
+            return false;
+        }
+        return $response;
+    }
+
+
+    $data = array(
+        "method" => "result",
+        "payee_id" => '1185',
+        "login" => 'WDISHOP',
+        "password" => 'wdi451',
+        "shop_order_number" => 'yura_ebat_nykolyshn_12',
+    );
+
+
+    
+
+    // $result_portmone = curlRequest('https://www.portmone.com.ua/gateway/', $data);
+    // if ($result_portmone === false) {
+    // 	echo 'Yura to pizda';
+    // }
+    // $parseXml = simplexml_load_string($result_portmone, 'SimpleXMLElement', LIBXML_NOCDATA);
+    // echo '<pre>';
+    // var_dump($parseXml->orders->order->status=="PAYED");
+    // echo '</pre>';
+
+
+
+
+    ?>
+
+</div>	

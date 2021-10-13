@@ -1,0 +1,22 @@
+.shiparea_verify_address_container {
+	width: 100%;
+}
+
+.shiparea_verify_address_form {
+	clear: both;
+}
+
+.shiparea_verify_address_form input[type=text],
+.shiparea_verify_address_form select {
+	height: 25px;
+	border: 0;
+	background-color: #EEEEEE;
+	colo: #111111;
+	padding: 5px 10px;
+}
+
+.shiparea_verify_address_col1,
+.shiparea_verify_address_col2 {
+	float: left;
+	width: 50%;
+}

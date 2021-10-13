@@ -1,0 +1,16 @@
+{
+    "name": "gonzalesc/woocommerce-shipping-with-area-delivery",
+    "description": "This plugin allows calculate shipping price using delivery areas drawn in Google Maps",
+    "type": "wordpress-plugin",
+    "require": {
+        "mjaschen/phpgeo": "dev-master"
+    },
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Letsgodev",
+            "email": "support@letsgodev.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

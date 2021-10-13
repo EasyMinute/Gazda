@@ -1,0 +1,9 @@
+2021-10-08T13:55:20+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart() on null in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/themes/foodz/woocommerce/checkout/form-checkout.php:38
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /Users/yuriinykolyshyn/Sites/localhost/g in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/themes/foodz/woocommerce/checkout/form-checkout.php on line 38
+

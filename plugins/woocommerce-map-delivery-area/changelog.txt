@@ -1,0 +1,33 @@
+2020-09-22 - version 1.0.2.7
+* Fix issue with stylees not being added
+* Fix issue with hebrew language
+* Fix issue for undefined variable
+
+2020-09-08 - version 1.0.2.6
+* Fix issue with minimun price to purchase option
+
+2020-07-30 - version 1.0.2.5
+* Fix issue with shipping method not showing
+
+2020-06-06 - version 1.0.2.4
+* Fix problem with updates on certaind servers
+
+2020-04-30 - version 1.0.2.3
+* Fix: Fixed errors on checkout
+* Feature: Added free delivery field
+
+2020-04-20 - version 1.0.2.2
+* Fix: JS in the settings page for latest Woocommerce version
+
+2020-03-26 - version 1.0.2.1
+* Fix: JS in the settings page
+
+2020-02-10 - version 1.0.2
+* Feature: Update to Woocommerce 3.9.x
+
+2020-01-07 - version 1.0.1
+* Added dev filters
+* Fixed issue with zoom
+* Fixed issue with getting address by zip
+2019-10-09 - version 1.0.0
+* Begin

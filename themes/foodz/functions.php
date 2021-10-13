@@ -1668,3 +1668,5 @@ if ( IDEAPARK_THEME_IS_AJAX_SEARCH ) {
 add_action( 'after_setup_theme', 'ideapark_init_filesystem', 0 );
 add_action( 'after_setup_theme', 'ideapark_check_version', 1 );
 add_action( 'after_setup_theme', 'ideapark_setup' );
+
+

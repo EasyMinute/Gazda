@@ -109,3 +109,4 @@ $totals = $order->get_order_item_totals(); // phpcs:ignore WordPress.WP.GlobalVa
 		</div>
 	</div>
 </form>
+

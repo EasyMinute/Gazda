@@ -20,6 +20,9 @@ defined( 'ABSPATH' ) || exit;
 
 <div class="c-order">
 
+	skafjhasjkdlsajdioasjdioasjoidj
+	<?php var_dump($order->get_payment_method()) ?>
+
 	<?php if ( $order ) { ?>
 
 		<?php do_action( 'woocommerce_before_thankyou', $order->get_id() ); ?>
