@@ -1,0 +1,44 @@
+<wpml-config>
+	<admin-texts>
+        <key name="theme_mods_foodz">
+        	<key name="header_phone" />
+        	<key name="header_callback" />
+        	<key name="header_callback_title" />
+        	<key name="header_menu_text" />
+        	<key name="featured_badge_text" />
+        	<key name="sale_badge_text" />
+        	<key name="new_badge_text" />
+        	<key name="home_icons_header_1" />
+        	<key name="home_icons_header_2" />
+        	<key name="home_icons_header_3" />
+        	<key name="home_icons_header_4" />
+        	<key name="home_icons_content_1" />
+        	<key name="home_icons_content_2" />
+        	<key name="home_icons_content_3" />
+        	<key name="home_icons_content_4" />
+        	<key name="home_testimonials_header" />
+        	<key name="home_brands_header" />
+            <key name="home_big_banner_header" />
+			<key name="home_big_banner_subheader" />
+			<key name="home_big_banner_button_text" />
+			<key name="home_promo_title" />
+			<key name="home_promo_content" />
+			<key name="home_promo_shortcode" />
+			<key name="home_featured_title" />
+			<key name="home_sale_title" />
+			<key name="home_best_selling_title" />
+			<key name="home_recent_title" />
+			<key name="home_post_header" />
+			<key name="home_html_header" />
+			<key name="home_html_content" />
+			<key name="home_shortcode_header" />
+			<key name="home_subscribe_header" />
+			<key name="home_subscribe_subheader" />
+			<key name="contact_phones" />
+			<key name="contact_email" />
+			<key name="contact_address" />
+			<key name="footer_contacts" />
+            <key name="footer_copyright" />
+        </key>
+	</admin-texts>
+</wpml-config>

@@ -1,0 +1,105 @@
+2021-10-01T13:55:04+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T13:56:24+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T13:56:24+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T13:56:25+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T13:57:08+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T13:57:08+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T13:57:09+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T13:57:10+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T14:02:54+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T14:02:54+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T14:02:55+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T14:02:57+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T14:02:57+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T14:03:06+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-10-01T14:03:07+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/wooc in /Users/yuriinykolyshyn/Sites/localhost/gazda/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+

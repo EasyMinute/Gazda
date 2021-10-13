@@ -1,0 +1,733 @@
+# Copyright (C) 2021 Foodz Theme Functionality
+# This file is distributed under the same license as the Foodz Theme Functionality package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Foodz Theme Functionality 1.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ideapark-foodz\n"
+"POT-Creation-Date: 2021-09-17 06:53:18+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: ideapark-foodz.php:25
+msgid "This plugin works only with Foodz theme"
+msgstr ""
+
+#: ideapark-foodz.php:79
+msgid "Banners"
+msgstr ""
+
+#: ideapark-foodz.php:80
+msgid "Banner"
+msgstr ""
+
+#: ideapark-foodz.php:102
+msgid "Brands"
+msgstr ""
+
+#: ideapark-foodz.php:103
+msgid "Brand"
+msgstr ""
+
+#: ideapark-foodz.php:125
+msgid "Testimonials"
+msgstr ""
+
+#: ideapark-foodz.php:126
+msgid "Testimonial"
+msgstr ""
+
+#: ideapark-foodz.php:153
+msgid "Banner details"
+msgstr ""
+
+#: ideapark-foodz.php:154
+msgid "Brand details"
+msgstr ""
+
+#: ideapark-foodz.php:155
+msgid "Testimonial details"
+msgstr ""
+
+#: ideapark-foodz.php:168
+msgid "Hide Title"
+msgstr ""
+
+#: ideapark-foodz.php:177
+msgid "Subheader"
+msgstr ""
+
+#: ideapark-foodz.php:186
+msgid "Shortcode"
+msgstr ""
+
+#: ideapark-foodz.php:196
+msgid "Shortcode placement"
+msgstr ""
+
+#: ideapark-foodz.php:199
+msgid "Above of the text"
+msgstr ""
+
+#: ideapark-foodz.php:200
+msgid "Below of the text"
+msgstr ""
+
+#: ideapark-foodz.php:210
+msgid "Button Text"
+msgstr ""
+
+#: ideapark-foodz.php:220
+msgid "Button/Banner Link"
+msgstr ""
+
+#: ideapark-foodz.php:229
+msgid "Text Color"
+msgstr ""
+
+#: ideapark-foodz.php:239
+msgid "Background Color"
+msgstr ""
+
+#: ideapark-foodz.php:256
+msgid "Link"
+msgstr ""
+
+#: ideapark-foodz.php:272
+msgid "Occupation"
+msgstr ""
+
+#: ideapark-foodz.php:283
+msgid "Featured Image"
+msgstr ""
+
+#: ideapark-foodz.php:303
+msgid "Video URL"
+msgstr ""
+
+#: ideapark-foodz.php:306
+msgid "Enter the url to product video (Youtube, Vimeo etc.)."
+msgstr ""
+
+#: ideapark-foodz.php:315
+msgid "Extra info title"
+msgstr ""
+
+#: ideapark-foodz.php:316
+msgid "Nutritional facts"
+msgstr ""
+
+#: ideapark-foodz.php:322
+msgid "Extra info text"
+msgstr ""
+
+#: ideapark-foodz.php:367
+msgid "Facebook url"
+msgstr ""
+
+#: ideapark-foodz.php:368
+msgid "Instagram url"
+msgstr ""
+
+#: ideapark-foodz.php:369
+msgid "Twitter url"
+msgstr ""
+
+#: ideapark-foodz.php:370
+msgid "Tumblr url"
+msgstr ""
+
+#: ideapark-foodz.php:371
+msgid "Pinterest url"
+msgstr ""
+
+#: ideapark-foodz.php:421 ideapark-foodz.php:455
+msgid "Share on Facebook"
+msgstr ""
+
+#: ideapark-foodz.php:422 ideapark-foodz.php:456
+msgid "Share on Twitter"
+msgstr ""
+
+#: ideapark-foodz.php:423 ideapark-foodz.php:457
+msgid "Share on Whatsapp"
+msgstr ""
+
+#: ideapark-foodz.php:430 ideapark-foodz.php:462
+msgid "Share"
+msgstr ""
+
+#: importer/importer.php:69
+msgid "Import Demo Content"
+msgstr ""
+
+#: importer/importer.php:84
+msgid "Please wait..."
+msgstr ""
+
+#: importer/importer.php:85
+msgid "Are you sure you want to import?"
+msgstr ""
+
+#: importer/importer.php:86
+msgid "Importing ..."
+msgstr ""
+
+#: importer/importer.php:87 importer/importer.php:194
+msgid "Progress"
+msgstr ""
+
+#: importer/importer.php:88
+msgid "Output Error"
+msgstr ""
+
+#: importer/importer.php:114 importer/importer.php:165
+msgid "One-Click Import Demo Content"
+msgstr ""
+
+#: importer/importer.php:169
+msgid "Select the demo site you want to import: "
+msgstr ""
+
+#: importer/importer.php:176
+msgid "Preview Demo"
+msgstr ""
+
+#: importer/importer.php:191
+msgid "Import attachments"
+msgstr ""
+
+#: importer/importer.php:192
+msgid "Import"
+msgstr ""
+
+#: importer/importer.php:192
+msgid "Export"
+msgstr ""
+
+#: importer/importer.php:194
+msgid "Prepare data..."
+msgstr ""
+
+#: importer/importer.php:196
+msgid "Important notes:"
+msgstr ""
+
+#: importer/importer.php:197
+msgid ""
+"Please note that import process will take time needed to download all "
+"attachments from demo web site."
+msgstr ""
+
+#: importer/importer.php:198
+msgid ""
+"If you plan to use shop, please install WooCommerce before you run import."
+msgstr ""
+
+#: importer/importer.php:199
+msgid ""
+"We recommend you to <a href=\"%s\" target=\"_blank\">reset data</a> & clean "
+"wp-content/uploads folder before import to prevent duplicate content."
+msgstr ""
+
+#: importer/importer.php:202
+msgid "No themes data found"
+msgstr ""
+
+#: importer/importer.php:203
+msgid "Try adding this code to the beginning of the file wp-config.php:"
+msgstr ""
+
+#: importer/importer.php:231 importer/importer.php:921
+#: importer/importer.php:928
+msgid "Error: Permission denied"
+msgstr ""
+
+#: importer/importer.php:239
+msgid ""
+"Error: Could not start session! Please try to turn off debug mode and error "
+"reporting"
+msgstr ""
+
+#: importer/importer.php:253
+msgid "Error: Select the demo site you want to import"
+msgstr ""
+
+#: importer/importer.php:304 importer/importer.php:308
+msgid "Error: Select the data you want to import"
+msgstr ""
+
+#: importer/importer.php:326
+msgid "Error: PHP-Session variables not working. Check your PHP settings"
+msgstr ""
+
+#: importer/importer.php:377
+msgid "Prepared data successfully"
+msgstr ""
+
+#: importer/importer.php:386
+msgid "Imported terms successfully"
+msgstr ""
+
+#: importer/importer.php:395
+msgid "Imported post data successfully"
+msgstr ""
+
+#: importer/importer.php:408
+msgid "Imported options successfully"
+msgstr ""
+
+#: importer/importer.php:417
+msgid "Imported widgets successfully"
+msgstr ""
+
+#: importer/importer.php:442
+msgid ""
+"Cheers! The demo data has been imported successfully! Please reload this "
+"page to finish!"
+msgstr ""
+
+#: importer/importer.php:444
+msgid "Data import completed!"
+msgstr ""
+
+#: importer/importer.php:451
+msgid "Error: step not found: "
+msgstr ""
+
+#: importer/importer.php:572
+msgid "Error: file not found: "
+msgstr ""
+
+#: importer/importer.php:705
+msgid "Imported Slider Revolution successfully"
+msgstr ""
+
+#: importer/importer.php:709
+msgid "The plugin Slider Revolution is not installed"
+msgstr ""
+
+#: importer/importer.php:712
+msgid "There are no slides in this demo"
+msgstr ""
+
+#: importer/importer.php:947
+msgid "The demo data has been exported successfully!"
+msgstr ""
+
+#: importer/parsers.php:43 importer/parsers.php:77 importer/parsers.php:85
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: importer/parsers.php:44
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: importer/parsers.php:89 importer/parsers.php:94 importer/parsers.php:312
+#: importer/parsers.php:499
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: importer/wordpress-importer-extend.php:30
+msgid "Import media"
+msgstr ""
+
+#: importer/wordpress-importer-extend.php:40
+msgid "Import "
+msgstr ""
+
+#: importer/wordpress-importer.php:135 importer/wordpress-importer.php:144
+#: importer/wordpress-importer.php:195 importer/wordpress-importer.php:200
+#: importer/wordpress-importer.php:210
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: importer/wordpress-importer.php:136
+msgid "The file %s does not exist, please try again."
+msgstr ""
+
+#: importer/wordpress-importer.php:179
+msgid "All done."
+msgstr ""
+
+#: importer/wordpress-importer.php:179
+msgid "Have fun! "
+msgstr ""
+
+#: importer/wordpress-importer.php:180
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: importer/wordpress-importer.php:201
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: importer/wordpress-importer.php:219
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: importer/wordpress-importer.php:244
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: importer/wordpress-importer.php:271
+msgid "Assign Authors"
+msgstr ""
+
+#: importer/wordpress-importer.php:272
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: importer/wordpress-importer.php:274
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: importer/wordpress-importer.php:284
+msgid "Import Attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:287
+msgid "Download and import file attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:292
+msgid "Submit"
+msgstr ""
+
+#: importer/wordpress-importer.php:306
+msgid "Import author:"
+msgstr ""
+
+#: importer/wordpress-importer.php:320
+msgid "or create new user with login name:"
+msgstr ""
+
+#: importer/wordpress-importer.php:323
+msgid "as a new user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:331
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:333
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:338
+msgid "- Select -"
+msgstr ""
+
+#: importer/wordpress-importer.php:393
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: importer/wordpress-importer.php:452
+msgid "Failed to import category %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:501
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:562 importer/wordpress-importer.php:803
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:653
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:692
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: importer/wordpress-importer.php:766
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: importer/wordpress-importer.php:984
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: importer/wordpress-importer.php:993
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:1098
+msgid "Invalid file type"
+msgstr ""
+
+#: importer/wordpress-importer.php:1156
+msgid "Remote server did not respond"
+msgstr ""
+
+#: importer/wordpress-importer.php:1163
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: importer/wordpress-importer.php:1171
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: importer/wordpress-importer.php:1177
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: importer/wordpress-importer.php:1184
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:1293
+msgid "Import WordPress"
+msgstr ""
+
+#: importer/wordpress-importer.php:1300
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: importer/wordpress-importer.php:1315
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: importer/wordpress-importer.php:1316
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/class-ideapark-foodz.php:191 includes/class-ideapark-foodz.php:196
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-admin-api.php:171
+msgid "Upload an image"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-admin-api.php:171
+msgid "Use image"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-admin-api.php:171
+msgid "Upload new image"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-admin-api.php:172
+msgid "Remove image"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:80
+msgid "Add New"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:81
+msgid "Add New %s"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:82
+msgid "Edit %s"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:83
+msgid "New %s"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:84
+msgid "All %s"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:85
+msgid "View %s"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:86
+msgid "Search %s"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:87
+msgid "No %s Found"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:88
+msgid "No %s Found In Trash"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:89
+msgid "Parent %s"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:133
+msgid "%1$s updated. %2$sView %3$s%4$s."
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:134
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:135
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:136
+msgid "%1$s updated."
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:137
+msgid "%1$s restored to revision from %2$s."
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:138
+msgid "%1$s published. %2$sView %3$s%4s."
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:139
+msgid "%1$s saved."
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:140
+msgid "%1$s submitted. %2$sPreview post%3$s%4$s."
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:141
+msgid "%1$s scheduled for: %2$s. %3$sPreview %4$s%5$s."
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:141
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:142
+msgid "%1$s draft updated. %2$sPreview %3$s%4$s."
+msgstr ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:159
+msgid "%1$s %2$s updated."
+msgid_plural "%1$s %3$s updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:160
+msgid "%1$s %2$s not updated, somebody is editing it."
+msgid_plural "%1$s %3$s not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:161
+msgid "%1$s %2$s permanently deleted."
+msgid_plural "%1$s %3$s permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:162
+msgid "%1$s %2$s moved to the Trash."
+msgid_plural "%1$s %3$s moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/class-ideapark-foodz-post-type.php:163
+msgid "%1$s %2$s restored from the Trash."
+msgid_plural "%1$s %3$s restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: widgets/advantages-widget.php:13
+msgid "A widget that displays an About widget"
+msgstr ""
+
+#: widgets/advantages-widget.php:17
+msgid "Custom Advantages"
+msgstr ""
+
+#: widgets/advantages-widget.php:104 widgets/latest-posts-widget.php:89
+msgid "Title:"
+msgstr ""
+
+#: widgets/advantages-widget.php:108
+msgid "Header icon:"
+msgstr ""
+
+#: widgets/advantages-widget.php:113 widgets/advantages-widget.php:129
+msgid "Choose Image"
+msgstr ""
+
+#: widgets/advantages-widget.php:116 widgets/advantages-widget.php:132
+msgid "Remove"
+msgstr ""
+
+#: widgets/advantages-widget.php:120
+msgid "About me text:"
+msgstr ""
+
+#: widgets/advantages-widget.php:124
+msgid "Bottom image:"
+msgstr ""
+
+#: widgets/advantages-widget.php:136
+msgid "URL (Read More):"
+msgstr ""
+
+#: widgets/latest-posts-widget.php:8
+msgid "The recent posts with thumbnails"
+msgstr ""
+
+#: widgets/latest-posts-widget.php:12
+msgid "Custom Latest Posts"
+msgstr ""
+
+#: widgets/latest-posts-widget.php:82
+msgid "Latest Posts"
+msgstr ""
+
+#: widgets/latest-posts-widget.php:93
+msgid "Filter by Category:"
+msgstr ""
+
+#: widgets/latest-posts-widget.php:95
+msgid "All categories"
+msgstr ""
+
+#: widgets/latest-posts-widget.php:104
+msgid "Number of posts to show:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Foodz Theme Functionality"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Banners, Brands and Testimonials plugin, Widgets, One-Click Demo Import and "
+"other functionality for the Foodz theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "parkofideas.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://parkofideas.com"
+msgstr ""

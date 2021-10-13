@@ -1,0 +1,69 @@
+.shiparea_verify_address_container {
+	width: 100%;
+	margin: auto;
+}
+
+.shiparea_verify_address_form {
+	display: table;
+	border: 1px solid #EEE;
+	padding: 20px;
+}
+
+.shiparea_verify_address_row {
+	display: table-row;
+}
+
+.shiparea_verify_address_form input[type=text],
+.shiparea_verify_address_form select {
+	height: 45px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	color: #111111;
+	padding: 0 10px;
+	display: block;
+	width: 100%;
+}
+
+.shiparea_verify_address_form label {
+	display: block;
+}
+
+.shiparea_verify_address_col1,
+.shiparea_verify_address_col2 {
+	display: table-cell;
+	padding: 10px;
+}
+
+
+.shiparea_verify_address_col1 { width: 55%; }
+.shiparea_verify_address_col2 { width: 45%; border-left: 1px solid #EEE; }
+.shiparea_verify_address_return { width: 90%; margin:auto;  }
+
+.shiparea_verify_address_section { margin: 20px 0; }
+
+
+.shiparea_verify_address_shiprice_msg {
+	font-size: 16px;
+	color: #74ADBE;
+}
+.shiparea_verify_address_shiprice_num {
+	font-size: 55px;
+	color: #74ADBE;
+	font-weight: bold;
+	text-align: center;
+}
+
+.shiparea_verify_address_minprice_msg {
+	font-size: 14px;
+	color: #C33B23;
+}
+
+.shiparea_verify_address_minprice_num {
+	font-size: 20px;
+	color: #C33B23;
+	font-weight: bold;
+}
+
+.pac-container {
+	z-index: 1000000;
+}
