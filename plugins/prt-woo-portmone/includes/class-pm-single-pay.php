@@ -38,11 +38,14 @@ function wc_portmone_gateway_init() {
 			$this->portmone_login = $this->get_option( 'portmone_login' );
 			$this->portmone_password = $this->get_option( 'portmone_password' );
 			$this->payee_id = $this->get_option( 'payee_id' );
-			$this->success_url = $this->get_option( 'success_url' );
-
+			// //Custom order statuses
 			$this->succeed_pay = $this->get_option( 'succeed_pay' );
 			$this->waiting_pay = $this->get_option( 'waiting_pay' );
 			$this->failed_pay = $this->get_option( 'failed_pay' );
+			// //Receipt page options
+			$this->pay_button_text = $this->get_option( 'pay_button_text' );
+			$this->pay_instructions_text = $this->get_option( 'pay_instructions_text' );
+
 
 			// Saving owners_keys
 			$terms = get_terms( 'bill', array( 'hide_empty' => false ) );
@@ -110,13 +113,6 @@ function wc_portmone_gateway_init() {
 		            'desc_tip'    => true,
 		        ),
 
-		        'success_url' => array(
-		            'title'       => __( 'Посилання на сторінку після оплати', 'wc-gateway-portmone' ),
-		            'type'        => 'url',
-		            'description' => __( 'Виберіть посилання на сторінку, на яку буде редіректити Лікпей після завершення процесу оплати. Або залиште порожнім, щоб повертало на сторінку замовлення по замовчуванню.', 'wc-gateway-portmone' ),
-		            'default'     => '',
-		            'desc_tip'    => true,
-		        ),
 
 		        'title' => array(
 		            'title'       => __( "Заголовок", 'wc-gateway-portmone' ),
@@ -139,6 +135,22 @@ function wc_portmone_gateway_init() {
 		            'type'        => 'textarea',
 		            'description' => __( 'Інструкції, що будуть додані на сторінку подяки та в емейли.', 'wc-gateway-portmone' ),
 		            'default'     => '',
+		            'desc_tip'    => true,
+		        ),
+
+		        'pay_button_text' => array(
+		            'title'       => __( "Текст кнопки для оплати", 'wc-gateway-portmone' ),
+		            'type'        => 'text',
+		            'description' => __( 'Цей текст бачить користувач під час переходу на сторінку оплати', 'wc-gateway-portmone' ),
+		            'default'     => __( 'Оплатити замовлення', 'wc-gateway-portmone' ),
+		            'desc_tip'    => true,
+		        ),
+
+		        'pay_instructions_text' => array(
+		            'title'       => __( "Інструкції під час переходу на оплату", 'wc-gateway-portmone' ),
+		            'type'        => 'textarea',
+		            'description' => __( 'Інструкції, що будуть додані на сторінку переходу оплати.', 'wc-gateway-portmone' ),
+		            'default'     => __( 'Виконується перенаправлення на сторінку оплати', 'wc-gateway-portmone' ),
 		            'desc_tip'    => true,
 		        ),
 
@@ -200,6 +212,7 @@ function wc_portmone_gateway_init() {
 
 
 		// Forming Portmone checkout link to redirect on placing order
+		// ATTENTION! In current version this function is not using
         public function portmone_redirect_link($order_id){
 			global $woocommerce;
 			
@@ -232,26 +245,7 @@ function wc_portmone_gateway_init() {
 			}
 
 
-			// ///////////////////////// FORM HTML
-			// $portmone_args = array(
-		 //        'payee_id'           => $this->payee_id,
-		 //        'shop_order_number'  => $order->get_id(),
-		 //        'bill_amount'        => $order->get_total(),
-		 //        'bill_currency'      => $currency,
-		 //        'success_url'        => $this->success_url . '&status=success',
-		 //        'failure_url'        => $this->success_url . '&status=failure',
-		 //        'cms_module_name'    => json_encode(['name' => 'WordPress', 'v' => '1']), //!!!!!!!!!! ЗМІНИИТИ ВЕРСІЮ
-		 //        'encoding'           => 'UTF-8'
-		 //    );
-		 //    $out = '';
 			
-			// foreach ($portmone_args as $key => $value) {
-	  //           $portmone_args_array[] = "<input type='hidden' name='$key' value='$value'/>";
-	  //       }
-	  //       $out .= '<form action="' . $this->gateway . '" method="post" id="portmone_payment_form">
-	  //           ' . implode('', $portmone_args_array) . '
-	  //       <input type="submit" id="submit_portmone_payment_form" value="' . 'PAY TEST' . '" /></form>';
-
 
 			$source = '{
 				"v":"2",
@@ -270,32 +264,14 @@ function wc_portmone_gateway_init() {
 			//$url тепер містить адресу структурованого посилання для видачі клієнту
 
 
-
-			// $raw_url = $portmone->cnb_form_raw(array(
-			// 	'public_key'     => $public_key,
-			// 	'action'         => 'pay',
-			// 	'amount'         => $order->get_total(),
-			// 	'currency'       => $currency,
-			// 	'split_rules'    => $split_rules,
-			// 	'description'    => __( 'Оплата за замовлення №', 'wc-gateway-portmone' ) . ' ' . $order->get_id(),
-			// 	'order_id'       => $order->get_id(),
-			// 	'result_url'     => $success_url,
-   //          	'server_url'     => $result_url,
-			// 	'version'        => '3'
-			// ));
-
-			// $url_query_params = array(
-			// 	'data' => $raw_url['data'],
-			// 	'signature' => $raw_url['signature']
-			// );
-
-			// $url = $raw_url['url'] . '?' . http_build_query($url_query_params);
-
 			return $url;
         }
 
         public function receipt_page($order_id){
-        	echo '<br><br><br><br>kljasdklsfjskdfjsdlf<br><br><br>';
+
+
+        	echo '<p class="prt_redirect_text">' . $this->pay_instructions_text . '</p>';
+
         	global $woocommerce;
 			
             $order = new WC_Order( $order_id );
@@ -344,8 +320,10 @@ function wc_portmone_gateway_init() {
 	        }
 	        $out .= '<form action="' . $this->gateway . '" method="post" id="portmone_payment_form">
 	            ' . implode('', $portmone_args_array) . '
-	        <input type="submit" id="submit_portmone_payment_form" value="' . 'PAY TEST' . '" /></form>';
+	        <input type="submit" id="submit_portmone_payment_form" value="' . $this->pay_button_text . '" /></form>';
 	        echo $out;
+
+
         }
 
         // Main function that processing order ad redirecting to Portmone checkout page
@@ -412,6 +390,7 @@ function wc_portmone_gateway_init() {
 		        "login" => $this->portmone_login,
 		        "password" => $this->portmone_password,
 		        "shop_order_number" => $order_id,
+		        "email" => $order->get_billing_email();
 		    );
 
 		    // getting result of payment by order_id on portmone
