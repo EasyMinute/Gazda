@@ -390,7 +390,7 @@ function wc_portmone_gateway_init() {
 		        "login" => $this->portmone_login,
 		        "password" => $this->portmone_password,
 		        "shop_order_number" => $order_id,
-		        "email" => $order->get_billing_email();
+		        "email" => $order->get_billing_email(),
 		    );
 
 		    // getting result of payment by order_id on portmone
